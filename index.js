@@ -90,8 +90,7 @@ HtmlWebpackInlineSourcePlugin.prototype.processTag = function (compilation, rege
       tagName: 'script',
       closeTag: true,
       attributes: {
-        type: 'text/javascript',
-        nonce: 'testNonce123'
+        type: 'text/javascript'
       }
     };
 
